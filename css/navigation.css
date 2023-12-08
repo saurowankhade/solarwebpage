@@ -1,0 +1,111 @@
+.logo img{
+    position: absolute;
+    display: block;
+    padding: 0.2rem;
+    border-radius: 50%;
+    margin-left: 30px
+
+}
+header{
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 1rem;
+}
+
+ul{
+    text-align: end;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+li a{
+    text-decoration: none;
+}
+ul li a{
+    color: whitesmoke;
+}
+
+ul li a:visited{
+    color: whitesmoke;
+}
+
+
+
+
+.info{
+    background-color: #000000c6;
+    display: block;
+    color: aliceblue;
+    width: 25%;
+    z-index: 1;
+    position: sticky;
+    margin-top: -230px;
+    white-space: 1px;
+    border: 1px solid #000000;
+    line-height: 1.5rem;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    margin-left: 10px;
+}
+
+.info p{
+    text-align: justify;
+    padding: 10px;
+}
+.info h3{
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+
+@media screen and (min-width: 713px) {
+    ul li:hover,ul li:focus{
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: wheat;
+        text-decoration: overline;
+        border-radius: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1370px) {
+    .info{
+        position:sticky;
+        z-index: 0;
+        border-radius: 0%;
+        border: 1px solid rgba(255, 228, 196, 0.146);
+        margin: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, #00000000 #000000);
+    }
+}
+
+@media screen and (max-width: 712px) {
+   ul li{
+    display:flex;
+    justify-content: end;
+    text-align: justify;
+   }
+
+   .logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+
+   ul li:hover,ul li:focus{
+    cursor: pointer;
+    color: wheat;
+    text-decoration: overline;
+    border-radius: 20px;
+}
+
+
+}

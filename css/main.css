@@ -1,0 +1,363 @@
+.choose{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.data h3{
+    font-size: xx-large;
+    text-align: center;
+}
+.data p{
+    text-align: justify;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+
+}
+.data ol{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.data ol li{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.data span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.data span a{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.263);
+     padding: 10px;
+     color: black;
+    font-size: medium;
+    text-decoration: none;
+    border: 1px solid #00000079;
+    border-radius: 40px;
+}
+
+
+.data span a:hover,.data span a:focus{
+background-color: black;
+color: whitesmoke;
+text-decoration: overline;
+}
+
+
+.services{
+    background-image: url(../imgs/servicesback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position-y:bottom;
+    background-position-x: left;
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    z-index: 0;
+    border-bottom: 2px solid rgba(18, 18, 19, 0.174);
+}
+
+.con{
+    display: inline-block;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 1.7rem;
+    line-height: 1.5rem;
+}
+.con p{
+    text-align: center;  
+}
+
+.con h2{
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.service{
+    display: inline-block;
+}
+
+.cards{
+    display:  inline-flex;
+}
+
+.card{
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid #00000042;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #00000067;
+    display: inline-block;
+
+}
+.card h2{
+    text-align: center;
+}
+.card img{
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 85%, 0 0);
+    
+}
+.card figure figcaption{
+    text-align: justify;
+    padding: 20px;
+}
+.card figure figcaption p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+.card h4{
+    text-align: end;
+}
+
+.card:hover,.card:focus{
+    cursor: pointer;
+    box-shadow: 20px 20px 20px #00000067;
+}
+
+.fetureproject{
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+    text-align: center;
+}
+.featurecards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+.featurecard{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position-y:bottom;
+    background-position-x: right;
+    height: 400px;
+    width: 300px;
+    border-bottom: 2px solid rgba(18, 18, 19, 0.174);
+    border-radius: 30px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px #00000067;
+   
+    
+}
+
+.card1{
+    background-image: url(../imgs/install.jpg); 
+
+}
+.card2{
+    background-image: url(../imgs/inspection.jpg); 
+}
+.card3{
+    background-image: url(../imgs/research.jpg); 
+}
+.card4{
+    background-image: url(../imgs/maintain.jpg); 
+    
+}
+
+.featurecard p, .featurecard h4{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    background-color: #00000058;
+    border-radius: 0 0 20px 20px;
+    width: 300px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.featurecard p{
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-align: start;
+    font-size: 1.3rem;
+}
+
+.featurecard h4{
+    margin-bottom: 10px;
+    
+}
+
+.featurecard:hover,.featurecard:focus{
+    box-shadow: 20px 20px 20px #00000067;
+    cursor: pointer;
+
+}
+
+
+.contact{
+    display: flex;
+      justify-content: center;
+    margin: 10px;
+}
+
+.coninfo{
+    background-image: url(../imgs/maintain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position-y:bottom;
+    background-position-x: right;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-top: 20px;
+}
+
+.coninfo div{
+    background-color: rgba(0, 0, 0, 0.845);
+    height: 100%;
+    color: whitesmoke;
+}
+
+.coninfo div h2{
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+}
+
+.coninfo div h4{
+    text-align: center;
+    padding: 50px;
+    font-size: medium;
+}
+
+
+
+
+
+.form{
+    display: inline-block;
+    padding: 30px;
+}
+
+.form h2{
+    text-align: center;
+}
+.form form input, .form form button{
+    display: block;
+    right: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 400px;
+    border: 0;
+    border-bottom: 1px solid #333;
+}
+.button{
+    background-color: #333;
+    color: antiquewhite;
+}
+
+
+footer{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+}
+footer a, footer a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover,footer a:focus{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 712px) {
+    .choose{
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+    .choose img{
+        max-width: 100%;
+    }
+    .data{
+        display: block;
+        width: 100%;
+    }
+    .data h3{
+        margin: 10px;
+    }
+
+    .data ol li{
+        text-align: justify;
+    }
+
+
+    .cards{
+        display: block;
+    }
+    .card{
+        margin-top: 10px;
+    }
+
+    .fetureproject{
+        margin: 50px;
+
+    }
+
+    .featurecards{
+        display: inline-block;
+    }
+
+    .featurecard{
+        position: relative;
+        display: inline-block;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .contact{
+        display: inline-block;
+        align-items: center;
+       text-align: center;
+    }
+
+    .coninfo{
+        width: 300px;
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    .form form input, .form form button{
+        width: 100%;
+    }
+    
+ 
+ }
+

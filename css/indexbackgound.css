@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins' ,sans-serif;
+    
+}
+
+.firstblock{
+    background-image: url('../imgs/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position-y: center;
+    background-position-x: center;
+    height: 400px;
+    display: block;
+    width: 100%;
+    position: sticky;
+    z-index: 0;
+    border-bottom: 2px solid rgba(18, 18, 19, 0.174);
+    
+    
+}
+
+@media screen and (max-width: 481px) {
+    .firstblock{
+        height: 300px; 
+        background-position: 100%; 
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (max-width: 1370px) {
+    .firstblock{
+        position: sticky;
+        background-color: rgb(0, 0, 0);
+        z-index: 0;
+    }
+}
