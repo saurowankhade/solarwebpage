@@ -4,7 +4,12 @@
 
   ### Sample Image
 
-  <img width="300" height="300" alt="Sample Image" src="https://github.com/saurowankhade/solarwebpage/assets/98818353/ef1f9c0b-b012-4b75-afa7-c77cb1541b04">
+  <img width="300" height="300" alt="Sample Image" src="">
+
+  <video alt="Videos" controls loop src="">
+
+  
+
 
  
 
