@@ -4,7 +4,7 @@
 
   ### Sample Image
 
-  <img height="400" alt="Sample Image" src="https://github.com/saurowankhade/solarwebpage/assets/98818353/bdfa7ed6-e3df-4d90-8bbb-0065869947d1">
+  <img alt="Sample Image" src="https://github.com/saurowankhade/solarwebpage/assets/98818353/bdfa7ed6-e3df-4d90-8bbb-0065869947d1">
  
 
  ## Getting Started 
